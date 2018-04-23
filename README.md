@@ -17,7 +17,7 @@ TODO: **Web 3.0 Explained [Link](https://www.youtube.com/watch?v=aPVmd7SyKfQ)**
 
 
 ## Credits
- 
-Lead Developer - Chris Kibble (@ckib16)
-Mentor - Chris Beck (@christopherbeck)
+
+Saurabh Kanhegaonkar 
+Twitter - @kanhega_saurabh
  
