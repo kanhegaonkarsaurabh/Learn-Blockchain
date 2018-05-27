@@ -1,0 +1,15 @@
+{
+  "name": "sd-chain",
+  "version": "1.0.0",
+  "description": "A small implementation of a blockchain to understand how it works under the hood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon dev-test"
+  },
+  "author": "Saurabh Kanhegaonkar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
