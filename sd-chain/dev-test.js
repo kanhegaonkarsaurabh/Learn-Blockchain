@@ -1,9 +1,8 @@
 const Block = require('./block')      // Import in the block class
 
 
-let block = new Block('00:11:22', '0x432423132', '0x44212431', [{
-  'transactions': []
-}])
+const block1 = Block.mineBlock(Block.genesis(), [{
+  'transactions': [],
+}]);
 
-
-console.log(block.toString())
+console.log(block1.toString())
