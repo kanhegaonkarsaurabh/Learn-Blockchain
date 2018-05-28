@@ -1,3 +1,5 @@
+const SHA256 = require('crypto-js/sha256');
+
 // Create the initial block class
 class Block {
   constructor(timestamp, lastHash, hash, data) {         // Construct the block
@@ -24,7 +26,7 @@ class Block {
   static mineBlock(lastBlock, data) {
     let timestamp = Date.now();
     let lastHash = lastBlock.hash;
-    let hash = 'write-sha256-algo-hash';
+    let hash = SHA256(`${timestamp}${lastHash}${data}`).toString();       // The hash of a particular block
     let givenData = data;
 
     return new this(timestamp, lastHash, hash, givenData);
