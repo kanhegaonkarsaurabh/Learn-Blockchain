@@ -32,6 +32,10 @@ class Block {
     return new this(timestamp, lastHash, hash, givenData);
   }
 
+  static hashC(block) {
+    return SHA256(`${block.timestamp}${block.lastHash}${block.data}`).toString();  
+  }
+
 }
 
 module.exports = Block;
